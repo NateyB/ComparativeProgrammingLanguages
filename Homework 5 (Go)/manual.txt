@@ -1,0 +1,14 @@
+The flags to run this program are as follows:
+The flag "l" takes an int, and is the length of a sequence.
+The flag "n" takes an int, and is the number of sequences to generate.
+The flag "ks" takes the list of motif lengths separated by spaces as a string.
+The flag "cs" takes the list of the number of motif mutations per motif separated by spaces as a string.
+The flag "m" takes the minimum number of motifs.
+The flag "I" specifies the length of the active sub-region in the sequence.
+
+Example:
+./Homework5 -l=25 -n=50 -ks="10 15" -cs="1 1" -m=1 -I=100
+
+
+Templates are output to the file "out.txt", and sequences with
+motif information are output to "seq.dat"
